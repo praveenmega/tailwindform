@@ -29,7 +29,7 @@ function App() {
             When is your event
           </label>
           <input
-            className="bg-gray-100 block w-full border-0 rounded-md focus:ring-gray-200"
+            className="bg-gray-100 block w-full border-0 rounded-md focus:ring-gray-500"
             type="date"
             name="eventdate"
           />
@@ -39,7 +39,7 @@ function App() {
             What type of event is it?
           </label>
           <select
-            className="bg-gray-100 block w-full border-0 rounded-md focus:ring-gray-200"
+            className="bg-gray-100 block w-full border-0 rounded-md focus:ring-gray-500"
             name="event"
           >
             <option value="Corporate">Corporate event</option>
@@ -53,7 +53,7 @@ function App() {
             Additional details
           </label>
           <textarea
-            className="bg-gray-100 block w-full border-0 rounded-md focus:ring-gray-200"
+            className="bg-gray-100 block w-full border-0 rounded-md focus:ring-gray-500"
             rows="3"
             name="detail"
           ></textarea>
