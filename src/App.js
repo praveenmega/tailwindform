@@ -2,7 +2,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="m-10 max-w-lg p-10">
+    <div className="w-1/2 pt-10 pl-40">
       <form className="space-y-5 p-10">
         <div>
           <label className="text-gray-700" for="name">
